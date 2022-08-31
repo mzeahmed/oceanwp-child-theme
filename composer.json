@@ -1,0 +1,20 @@
+{
+  "name": "mzeahmed/oceanwp-child-theme",
+  "license": "GNU",
+  "description": "",
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "homepage": "https://github.com/mzeahmed/oceanwp-child-theme",
+  "type": "wordpress-theme",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "OceanwpChild\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

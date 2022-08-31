@@ -1,0 +1,54 @@
+/*Champs*/
+body.login div#login form#loginform input[type=text]:hover,
+body.login div#login form#loginform input[type=password]:hover,
+body.login div#login form#loginform input[type=text]:focus,
+body.login div#login form#loginform input[type=password]:focus {
+    box-shadow: 0 0 1em #4ab6a4 !important;
+    border-color: #4ab6a4 !important;
+}
+
+/*bouton se connecter*/
+.login .button-primary {
+    color: #ffffff !important;
+    background: #4ab6a4 !important;
+    border: 1px solid #4ab6a4 !important;
+    border-radius: 5px !important;
+}
+
+.login .button-primary:hover {
+    background: #ffffff !important;
+    color: #4ab6a4 !important;
+}
+
+/*formulaire*/
+.login form {
+    border-radius: 5px;
+}
+
+/*liens*/
+p#nav {
+    display: none;
+}
+
+p#backtoblog {
+    text-align: center !important;
+}
+
+body.login div#login p#backtoblog a,
+#login .privacy-policy-page-link a {
+    color: #1d3058 !important;
+}
+
+/*logo*/
+#login h1 a, .login h1 a {
+    background-image: url('../img/LOGO-REDIMENTION-114x114.png');
+}
+
+/*body*/
+body.login {
+    background: #dbf0ed !important;
+}
+
+.login .message {
+    border-left-color: #4ab6a4 !important;
+}

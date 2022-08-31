@@ -1,0 +1,26 @@
+{
+  "name": "oceanwp-child-theme",
+  "version": "1.0.0",
+  "description": "OceanWP Child Theme =================",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "mix --production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.13",
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "bootswatch": "^5.2.0"
+  }
+}
